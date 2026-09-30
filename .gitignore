@@ -1,0 +1,24 @@
+# Chung
+node_modules/
+.next/
+.vercel/
+__pycache__/
+*.pyc
+.env*
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+~$*
+
+# Báo cáo dựng từ dữ liệu thật của Trường học số: có tên, mã học sinh, số điểm danh.
+# Không đưa lên repo công khai. Giữ trên máy, chuyển qua kênh nội bộ khi cần.
+/*.html
+qc/mcp-log.md
+qc/defects.md
+
+# File xuất từ trang báo cáo (CSV, ảnh biểu đồ, bản in PDF) cũng mang dữ liệu học sinh
+*.csv
+*.pdf
+*.png
